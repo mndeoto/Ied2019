@@ -11,6 +11,7 @@ function clicked (event){
     var value2 = Math.floor(Math.random() * 256);
     var value3 = Math.floor(Math.random() * 256);
     // rgb(120,122,90)
+    
     circle.style.backgroundColor = "rgb(" + value1 + "," + value2 +"," +value3 +")";
     
 
@@ -29,7 +30,7 @@ button.addEventListener ("click", clicked);
 
     // work on the position of the circle
 
-    // create a new circle
+    // create a new circles
 
   
     
